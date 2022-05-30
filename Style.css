@@ -273,7 +273,7 @@ h6 {
 .Bio__text {
   grid-row: 1;
   background-color: #fec8d8;
-  text-align: center;
+  text-align: justify;
   font-weight: 700;
   width: 500px;
   height: 600px;
