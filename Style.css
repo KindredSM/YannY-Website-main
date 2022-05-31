@@ -42,12 +42,8 @@ h6 {
 }
 
 #navbar__logo {
-  background-color: black;
+  color: black;
   background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -228,7 +224,6 @@ h6 {
   font-weight: 700;
   background-color: #fec8d8;
   border-radius: 1px;
-  box-shadow: 2px 4px 18px #cbcbcb;
 }
 
 .hero__img {
@@ -252,7 +247,6 @@ h6 {
   border-radius: 1px;
   padding: 10px 20px;
   z-index: 1;
-  box-shadow: 2px 4px 18px #cbcbcb;
   font-style: italic;
 }
 
@@ -288,7 +282,6 @@ h6 {
   height: 600px;
   border: 5px solid #fec8d8;
   border-radius: 5px;
-  box-shadow: 2px 4px 18px #cbcbcb;
 }
 
 .music__container {
@@ -299,6 +292,10 @@ h6 {
   padding-top: 150px;
 }
 
+.iframe {
+  width: clamp(50vw, 60vw, 90vw);
+  height: clamp(30vh, 60vh, 80vh);
+}
 /* Intersection observer */
 
 .inverse {
@@ -346,8 +343,12 @@ h6 {
     margin-top: 50px;
     padding-top: 50px;
     padding-bottom: 100px;
-
     justify-content: center;
+  }
+
+  .iframe {
+    width: clamp(50vw, 80vw, 100vw);
+    height: clamp(30vh, 60vh, 80vh);
   }
 
   .contact__email {
